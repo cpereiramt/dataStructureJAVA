@@ -1,4 +1,4 @@
-package com.claytopereira.dataStructureJAVA;
+package com.claytopereira.dataStructureJAVA.list;
 
 public interface ListADT<E> {
 	/** Remove all contents from the list, so it is once again empty. Client is responsible for reclaiming storage 

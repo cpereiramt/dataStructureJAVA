@@ -1,6 +1,9 @@
 package com.claytopereira.dataStructureJAVA.list;
 
-// Implementing as Array List
+/** - Implementing List as Array 
+ *  - Must be allocated at some fixed size
+ *  - the size of the array must be known when the list is created
+ * */
 public class ArrayBasedList<E> implements ListADT<E> {
    private static final int defaultSize = 10; // Default Size
    private int maxSize; // Maximum size of list
